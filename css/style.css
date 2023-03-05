@@ -32,6 +32,16 @@ p {
     padding: 1rem 0;
 }
 
+
+.body {
+    background-image: url('/images/fondo-campo1.jpg');
+    background-size: cover; /* para cubrir todo el fondo */
+    background-repeat: no-repeat; /* para que la imagen no se repita */
+  }
+  
+
+
+
 .header a {
     color: white;
     text-decoration: none;
@@ -41,6 +51,7 @@ p {
 
     background-color: rgb(53, 36, 110);
     text-align: center;
+    
 }
 
 
