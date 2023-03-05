@@ -29,7 +29,7 @@ p {
 .header{
     background-color: #031218;
     color: white;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .header a {
@@ -39,6 +39,7 @@ p {
 
 .main {
 
+    background-color: rgb(53, 36, 110);
     text-align: center;
 }
 
