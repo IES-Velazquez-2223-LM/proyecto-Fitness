@@ -106,13 +106,51 @@ display: inline-block;
 .formulario-registro {
 
 width: 400px;
-background-color: aquamarine;
+background-color: rgb(49, 38, 132);
 padding: 30px;
 margin-right: auto;
 margin-top: 100px;
 border-radius: 4px;
 font-family: 'calibri';
+}
 
+.formulario-registro h3 {
+font-size: 35px;
+margin-bottom: 20px;
+}
+
+.controls{
+
+    width: 100%;
+    background-color: #031218;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #031218;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
 
 }
 
+.formulario-registro p {
+
+height: 40px;
+text-align: center;
+font-size: 18px;
+
+}
+
+.formulario-registro-boton {
+
+    width: 100%;
+    background-color: #031218;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #031218;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
