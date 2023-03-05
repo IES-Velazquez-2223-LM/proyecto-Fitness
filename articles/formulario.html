@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario Fitness+</title>
-</head>
-<body>
-    <header class="header">
-        <!--Clase barra Encabezado de la pagina-->
-        <div class="container logo-nav-container">
-            <img src="/icons/logo-fitness-r.ico" alt="logo de la página">
-            <nav class="navigation">
-                <ul>
-                    <!--Lista de noticias y otros en el encabezado-->
-                    <li><a href="/index.html" >Home</a></li>
-                    <li><a href="./articles/casonegreira.html" >Primera noticia</a></li>
-                    <li><a href="./articles/jonhcena.html" >Segunda noticia</a></li>
-                    <li><a href="./articles/entrenomusic.html" >Tercena noticia</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Fitness+</title>
+        <link rel="stylesheet" href="/css/style.css">
 
-    <h1>Formulario de registro Fitness+</h1>
-    <form action="#" method="POST" class="
-    form">
-        <h1>Formulario de Contacto</h1>
-        <label for="nombre">Nombre completo:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
-    
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-    
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono">
-    
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" min="18" max="99" placeholder="Ingresa tu edad" required>
-    
-        <label for="genero">Género:</label>
-        <select id="genero" name="genero" required>
-          <option value="">Seleccione una opción</option>
-          <option value="masculino">Masculino</option>
-          <option value="femenino">Femenino</option>
-          <option value="otro">Otro</option>
-        </select>
-    
-        <fieldset>
-            <legend>Intereses:</legend>
-            <input type="checkbox" id="deporte" name="intereses" value="deporte">
-            <label for="deporte">Deporte</label>
-            <input type="checkbox" id="gimnasio" name="intereses" value="gimnasio">
-            <label for="gimnasio">Gimnasio</label>
-            <input type="checkbox" id="vida-saludable" name="intereses" value="vida-saludable">
-            <label for="vida-saludable">Vida saludable</label>
-        </fieldset>
+    </head>
+    <body>
+        <header class="header">
+            <!--Clase barra Encabezado de la pagina-->
+            <div class="container logo-nav-container">
+                <img src="/icons/logo-fitness-r.ico" alt="logo de la página">
+                <nav class="navigation">
+                    <ul>
+                        <!--Lista de noticias y otros en el encabezado-->
+                        <li><a href="/index.html" >Home</a></li>
+                        <li><a href="./articles/casonegreira.html" >Primera noticia</a></li>
+                        <li><a href="./articles/jonhcena.html" >Segunda noticia</a></li>
+                        <li><a href="./articles/entrenomusic.html" >Tercena noticia</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-        <label for="motivo">Motivo del contacto:</label>
-        <select id="motivo" name="motivo">
-            <option value="consulta">Consulta</option>
-            <option value="sugerencia">Sugerencia</option>
-            <option value="reclamo">Reclamo</option>
-        </select>
+        <h1>Formulario de registro Fitness+</h1>
 
-        <fieldset>
-            <legend>Comentarios:</legend>
-            <textarea id="comentarios" name="comentarios"></textarea>
-        </fieldset>
+        <section class="formulario-registro">
+            <form action="#" method="POST">
+                <label for="nombre">Nombre completo:</label>
+                <input class="controls" type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+            
+                <label for="email">Correo electrónico:</label>
+                <input class="controls" type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            
+                <label for="telefono">Teléfono:</label>
+                <input class="controls" type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono">
+            
+                <label for="edad">Edad:</label>
+                <input class="controls" type="number" id="edad" name="edad" min="18" max="99" placeholder="Ingresa tu edad" required>
+            
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero" required>
+                <option value="">Seleccione una opción</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+                </select>
+            
+                <fieldset>
+                    <legend>Intereses:</legend>
+                    <input class="controls" type="checkbox" id="deporte" name="intereses" value="deporte">
+                    <label for="deporte">Deporte</label>
+                    <input class="controls" type="checkbox" id="gimnasio" name="intereses" value="gimnasio">
+                    <label for="gimnasio">Gimnasio</label>
+                    <input class="controls" type="checkbox" id="vida-saludable" name="intereses" value="vida-saludable">
+                    <label for="vida-saludable">Vida saludable</label>
+                </fieldset>
+
+                <label for="motivo">Motivo del contacto:</label>
+                <select id="motivo" name="motivo">
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reclamo">Reclamo</option>
+                </select>
+
+                <fieldset>
+                    <legend>Comentarios:</legend>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                </fieldset>
 
 
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-      </form>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </section>
 
     </body>
 </html>
