@@ -38,6 +38,8 @@ p {
     background-image: url('/images/fondo-campo1.jpg');
     background-size: cover; /* para cubrir todo el fondo */
     background-repeat: no-repeat; /* para que la imagen no se repita */
+    /*Por ahora no se va a colocar esta imagen*/
+    background-color: rgb(53, 36, 110);
   }
   
 
